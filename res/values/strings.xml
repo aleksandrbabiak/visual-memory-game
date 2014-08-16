@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Visual Memory</string>
+
+    <string name="act_start_game">Start game</string>
+    <string name="act_global_record">Global record</string>
+    <string name="act_statistics">Statistics</string>
+    <string name="action_settings">Settings</string>
+    <string name="act_exit">Exit</string>
+    <string name="try_again">try again</string>
+    <string name="menu">menu</string>
+    <string name="top100">Top 100</string>
+    <string name="new_record">New record</string>
+    <string name="time">time</string>
+
+    <!-- settings dialog-->
+     <string name="show_pause">Show pause</string>
+      <string name="error_pause">Error pause</string>
+       <string name="duration_game">Duration game</string>
+       <string name="Ok"> Ok!</string>
+
+    <!-- input user dialog-->
+   <string name="user_name">User name</string>
+   <string name="input_dialog_message">Please enter your name</string>
+
+    <!-- select user dialog-->
+    <string name="select_user">Select user</string>
+    <string name="add_new_user">Add new user</string>
+
+    <string name="admob_main_activity">ca-app-pub-6207354472068265/8342550238</string>
+
+
+
+
+
+</resources>

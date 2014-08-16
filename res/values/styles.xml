@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+  <!--  <style name="AppTheme" parent="android:Theme.DeviceDefault.Dialog">
+
+    </style>       -->
+
+    <style name="MainMenuTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#EDC877</item>
+        <item name="android:textSize">@dimen/main_menu_style_text_size</item>
+        <item name="android:typeface">monospace</item>
+
+      </style>
+
+
+
+    <style name="GameTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#674D1A</item>
+        <item name="android:textSize">@dimen/game_style_text_size</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
+
+
+       <style name="ResultActivityHeaderStyle" parent="@android:style/TextAppearance">
+           <!--  <item name="android:textColor">#ff00cc</item>-->
+             <item name="android:textSize">@dimen/result_activity_header_text_size</item>
+             <item name="android:typeface">monospace</item>
+         </style>
+
+
+         <style name="ResultActivityTextStyle" parent="@android:style/TextAppearance">
+             <!--  <item name="android:textColor">#ff00cc</item>-->
+              <item name="android:textSize">@dimen/result_activity_text_text_size</item>
+              <item name="android:typeface">monospace</item>
+
+             <!-- <item name="android:layout_marginLeft">20dp</item>-->
+
+         </style>
+
+      <style name="HeaderStyle" parent="@android:style/TextAppearance">
+          <item name="android:textSize">@dimen/statistics_activity_header_text_size</item>
+      </style>
+
+      <style name="StatisticsDateHeaderStyle" parent="@android:style/TextAppearance">
+          <item name="android:textSize">@dimen/statistics_activity_date_header_text_size</item>
+      </style>
+
+      <style name="StatisticsTextStyle" parent="@android:style/TextAppearance">
+          <item name="android:textSize">@dimen/statistics_activity_text_text_size</item>
+      </style>
+
+    <style name="SettingDialogTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/setting_dialog_text_size</item>
+    </style>
+
+
+
+
+
+
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">
+            <item name="android:background">@drawable/button</item>
+          <item name="android:textSize">@dimen/result_activity_button_text_size</item>
+            <item name="android:textColor">@color/White</item>
+            <item name="android:textStyle">bold</item>
+      </style>
+
+    <style name="hhhDialog" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/settings_dialog_wood</item>
+    </style>
+
+
+
+
+     </resources>

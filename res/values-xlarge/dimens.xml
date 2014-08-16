@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_menu_style_text_size">90dp</dimen>
+    <dimen name="game_style_text_size">150dp</dimen>
+
+    <dimen name="result_activity_header_text_size">110dp</dimen>
+    <dimen name="result_activity_text_text_size">70dp</dimen>
+    <dimen name="result_activity_button_text_size">30dp</dimen>
+
+    <dimen name="statistics_activity_header_text_size">40dp</dimen>
+    <dimen name="statistics_activity_date_header_text_size">25dp</dimen>
+    <dimen name="statistics_activity_text_text_size">25dp</dimen>
+    <dimen name="statistics_activity_button_text_size">17dp</dimen>
+
+    <dimen name="setting_dialog_text_size">30dp</dimen>
+    <dimen name="setting_dialog_header_text_size">40dp</dimen>
+    <dimen name="setting_dialog_margin_left">8dp</dimen>
+    <dimen name="setting_dialog_margin_right">12dp</dimen>
+    <dimen name="setting_dialog_margin_top">20dp</dimen>
+
+    <dimen name="record_dialog_header_text_size">50dp</dimen>
+    <dimen name="record_dialog_text_size">40dp</dimen>
+
+
+    <!-- input dialog -->
+    <dimen name="imput_dialog_header_text_size">35dp</dimen>
+    <dimen name="imput_dialog_text_size">25dp</dimen>
+    <dimen name="imput_dialog_margin_top">10dp</dimen>
+    <dimen name="imput_dialog_line_size">3dp</dimen>
+    <dimen name="input_dialog_input_text_size">35dp</dimen>
+
+    <dimen name="button_text_size">20dp</dimen>
+    <dimen name="select_dialog_list_text_size">30dp</dimen>
+    <dimen name="new_record_margin_top">15dp</dimen>
+
+    <dimen name="account_value_top100_text_size">20dp</dimen>
+    <dimen name="time_text_size">30dp</dimen>
+
+
+</resources>

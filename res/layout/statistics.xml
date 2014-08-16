@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/statistics_activity_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act_statistics"
+        android:id="@+id/statistics_header"
+        android:layout_gravity="center_horizontal"
+        style="@style/HeaderStyle" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/linLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:layout_weight="0.05" >
+
+        <com.google.ads.AdView android:id="@+id/adView"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               ads:adUnitId="ca-app-pub-6207354472068265/1641711832"
+                               ads:adSize="BANNER"
+                               ads:loadAdOnCreate="true"/>
+
+        <Button
+            android:id="@+id/stButtonRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="My record"
+            style="@style/ButtonTheme"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="@dimen/statistics_activity_button_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

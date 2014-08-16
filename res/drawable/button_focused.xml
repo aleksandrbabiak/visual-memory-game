@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    	<!-- Корневым элементом должен быть объект share (холс) -->
+    	<!-- android:shape - задает форму кнопки. В нашем случаем форма кнопки - прямоугольник -->
+    	<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    	    <!-- Устанавливаем значение радиуса скругления для всех углов прямоугольника -->
+    	 <corners android:radius="20px" />
+
+    	 <!-- Задаем линейный градиент для заливки прямоугольника -->
+    	 <gradient android:angle="90"
+    	        android:endColor="@color/button_focused_color_end"
+    	        android:startColor="@color/button_focused_color_start"
+    	        android:type="linear" />
+
+    	 <!-- Задаем отступы текста кнопки относительно краев прямоугольника  -->
+    	 <padding  android:bottom="9px"
+    	           android:left="6px"
+    	           android:right="6px"
+    	           android:top="9px" />
+    	</shape>

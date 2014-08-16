@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/settings_dialog_wood"
+    android:gravity="center|top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:id="@+id/header_settings_dailog"
+        android:gravity="center|top"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top"
+        android:textSize="@dimen/setting_dialog_header_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_pause"
+        android:id="@+id/show_pause_label"
+        android:layout_gravity="center_horizontal|left"
+        style="@style/SettingDialogTextStyle"
+        android:layout_marginLeft="@dimen/setting_dialog_margin_left"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top"
+        android:id="@+id/show_pause_seek" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_pause"
+        android:id="@+id/error_pause_label"
+        android:layout_gravity="left"
+        style="@style/SettingDialogTextStyle"
+        android:layout_marginLeft="@dimen/setting_dialog_margin_left"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_pause_seek"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duration_game"
+        android:id="@+id/duration_game_lable"
+        android:layout_gravity="left"
+        style="@style/SettingDialogTextStyle"
+        android:layout_marginLeft="@dimen/setting_dialog_margin_left"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/duration_game_seek"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ok"
+        android:id="@+id/settings_button_ok"
+        android:layout_marginTop="@dimen/setting_dialog_margin_top"
+        style="@style/ButtonTheme"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp" />
+
+</LinearLayout>

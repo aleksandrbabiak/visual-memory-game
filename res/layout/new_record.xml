@@ -1,0 +1,79 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/result_activity_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_record"
+            android:layout_gravity="center_horizontal"
+            style="@style/ResultActivityHeaderStyle"
+            android:layout_weight="1"
+            android:id="@+id/newRecordHeader" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 21.04.14/14:57"
+            android:id="@+id/newDate"
+            android:layout_gravity="center_horizontal"
+            style="@style/ResultActivityTextStyle"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/new_record_margin_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration game: 1 min"
+            android:id="@+id/newDuration"
+            android:layout_gravity="center_horizontal"
+            style="@style/ResultActivityTextStyle"
+            android:layout_marginTop="@dimen/new_record_margin_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="k_factor: 44"
+            android:id="@+id/newKfaktor"
+            android:layout_gravity="center_horizontal"
+            style="@style/ResultActivityTextStyle"
+            android:layout_marginTop="@dimen/new_record_margin_top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:id="@+id/newRecordBtnMenu"
+            android:layout_weight="1"
+            style="@style/ButtonTheme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/try_again"
+            android:id="@+id/newRecordBtnAgain"
+            android:layout_weight="1"
+            style="@style/ButtonTheme"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+</FrameLayout>

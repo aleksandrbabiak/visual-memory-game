@@ -1,0 +1,53 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/record_dialog_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your record"
+        android:id="@+id/yourRecordDilog"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/record_dialog_header_text_size"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/dateDialog"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/record_dialog_text_size"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/durationGameDialog"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/record_dialog_text_size"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/k_factorDialog"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/record_dialog_text_size"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ok"
+        android:id="@+id/buttonRecordDialog"
+        android:layout_gravity="center_horizontal"
+        style="@style/ButtonTheme"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+</LinearLayout>

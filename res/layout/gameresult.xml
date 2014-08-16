@@ -1,0 +1,139 @@
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/result_activity_background"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yourRecord"
+                style="@style/ResultActivityHeaderStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:text="Your record"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Date: 20.05.14/23:45"
+
+                android:textStyle="normal"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/durationGame"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Duration game: 2 min"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/k_factor"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="k_factor: 50.00"/>
+
+            <TextView
+                android:id="@+id/yourResult"
+                style="@style/ResultActivityHeaderStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:text="Your result"/>
+
+            <TextView
+                android:id="@+id/currentDate"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date: 23.05.14/15:56"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/currentDurationGame"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="duration game: 2 min"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/current_k_factor"
+                style="@style/ResultActivityTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="k_factor: 47.00"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_weight="1.7" />
+
+            <Button
+                android:id="@+id/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/menu"
+                style="@style/ButtonTheme" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView"
+                android:layout_weight="1.7" />
+
+            <Button
+                android:id="@+id/buttonTry_again"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/try_again"
+                style="@style/ButtonTheme" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:layout_weight="1.7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+

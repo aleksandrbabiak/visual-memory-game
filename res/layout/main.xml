@@ -1,0 +1,88 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:background="@drawable/main_activity_background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        xmlns:ads2="http://schemas.android.com/apk/lib/com.google.ads"
+        android:gravity="center">
+
+        <com.google.ads.AdView android:id="@+id/adViewMainTop"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               ads2:adUnitId="ca-app-pub-6207354472068265/9164978633"
+                               ads2:adSize="BANNER"
+                               ads2:loadAdOnCreate="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_start_game"
+
+            android:id="@+id/startGame"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            style="@style/MainMenuTextStyle"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_global_record"
+            android:id="@+id/globalRecord"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            style="@style/MainMenuTextStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_statistics"
+            android:id="@+id/statistics"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            style="@style/MainMenuTextStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings"
+            android:id="@+id/settings"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            style="@style/MainMenuTextStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act_exit"
+            android:id="@+id/exit"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0"
+            style="@style/MainMenuTextStyle" />
+
+
+        <com.google.ads.AdView android:id="@+id/adViewMain"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               ads:adUnitId="ca-app-pub-6207354472068265/8342550238"
+                               ads:adSize="BANNER"
+                               ads:loadAdOnCreate="true"/>
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

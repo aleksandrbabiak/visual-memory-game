@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="main_menu_style_text_size">30dp</dimen>
+    <dimen name="game_style_text_size">50dp</dimen>
+    <dimen name="result_activity_header_text_size">35dp</dimen>
+    <dimen name="result_activity_text_text_size">22dp</dimen>
+    <dimen name="statistics_activity_header_text_size">22dp</dimen>
+    <dimen name="statistics_activity_date_header_text_size">18dp</dimen>
+    <dimen name="statistics_activity_text_text_size">10dp</dimen>
+
+    <dimen name="setting_dialog_text_size">10dp</dimen>
+    <dimen name="setting_dialog_header_text_size">40dp</dimen>
+
+    <dimen name="record_dialog_header_text_size">20dp</dimen>
+    <dimen name="record_dialog_text_size">20dp</dimen>
+
+
+   <!-- input dialog-->
+    <dimen name="imput_dialog_header_text_size">20dp</dimen>
+    <dimen name="imput_dialog_text_size">15dp</dimen>
+    <dimen name="imput_dialog_margin_top">10dp</dimen>
+
+
+</resources>
